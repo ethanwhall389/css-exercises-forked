@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -22,6 +21,7 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +35,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 li, a {
@@ -59,6 +60,8 @@ ul {
 
 .main-section {
   display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 }
 
 .cards-section {
